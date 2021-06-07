@@ -1,0 +1,22 @@
+icons:
+
+<script src="https://kit.fontawesome.com/ae58c7a07e.js" crossorigin="anonymous"></script>
+<i class="fab fa-angellist"></i>
+
+happy <i class="far fa-smile-beam"></i>
+
+sad <i class="far fa-frown"></i>
+
+a-z <i class="fas fa-sort-alpha-down-alt"></i>
+
+font:
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Lobster&display=swap" rel="stylesheet">
+- font-family: 'Goblin One', cursive;
+font-family: 'Lobster', cursive;
+colors:
+light blue 43D0F6
+dark blue 437CF6
+red F7000F
+green 1DEF0F
+white FFFFFF

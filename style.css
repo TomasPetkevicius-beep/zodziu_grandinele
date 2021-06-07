@@ -1,0 +1,111 @@
+body{
+background-image: linear-gradient(90deg, #FFFFFF, #437CF6);
+}
+#front{
+  width: 5%;
+ height: 5%;
+}
+#logo{width: 10%;
+height: 10%;}
+section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+h1{color: #000000;
+    font-size: xx-large;
+}
+p{color: #000000;
+font-size: xx-large;
+}
+.kaipzaisti{
+    color: black;
+    top: 0px;
+    opacity: 1;
+}
+.kaipzaisti:hover{
+    top: 32px;
+    opacity: 1;
+}
+.instruction{
+    background-color: #FFFFFF;
+    top: -25px;
+    opacity: 0;
+    font-size: 32px;
+}
+.instruction:hover{
+    top: 0;
+    opacity: 1;
+    color: black;
+}
+#cf {
+    position: relative;
+    top: 0;
+    float: right;
+    cursor: pointer;
+   }
+#cf1{
+    display: none;    
+    background-color: lightyellow;
+    position: relative;
+    top: 0;
+    float: right;
+    padding: 5px;
+  border: 1px solid #666;
+  width: 25%;
+  height: 100%;
+  z-index: 1;  
+   }
+   #formbtn{
+       background-color: #FFFFFF;
+       font-size: 15px;
+   }
+.content{
+    
+    position: absolute;
+    transition: 0.5s;
+    overflow: hidden;
+}
+h4{
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Lucida Sans';
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #437CF6;
+    }
+    #quests {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    button{
+        background-color: gold;
+        border-radius: 5px;
+        font-size: 35px;
+    }
+    .start a{
+        font-size: 1.125rem; 
+        letter-spacing: 0.02em; 
+        color: #000000;
+        text-transform: uppercase; 
+        text-decoration: none; 
+        padding: 28px 82px 25px; 
+        background-color: #437CF6;
+        border-radius: 5px; 
+        border-bottom: 4px solid black; 
+        margin-top: 40px; 
+        display: inline-block;
+        cursor: pointer;
+    }
+    footer{
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+    }

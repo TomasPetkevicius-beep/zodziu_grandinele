@@ -1,0 +1,34 @@
+body{
+    background-color: #F7000F;
+}
+h1{color: black;
+font-size: 48px;}
+.emoji{
+    font-size: 72px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    }
+    .start a{
+        font-size: 1.125rem; 
+        letter-spacing: 0.02em; 
+        color: #000000;
+        text-transform: uppercase; 
+        text-decoration: none; 
+        padding: 28px 82px 25px; 
+        background-color: #437CF6;
+        border-radius: 5px; 
+        border-bottom: 4px solid black; 
+        margin-top: 40px; 
+        display: inline-block;
+        cursor: pointer;
+    }
